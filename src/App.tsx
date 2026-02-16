@@ -11,12 +11,8 @@ function App(): React.JSX.Element {
                     UD CISC275 with React Hooks and TypeScript Amazing Website
                     by Sonny Ly
                 </h1>
-                <img
-                    src="C:\Users\User\Downloads\shocked face.jpg"
-                    alt="Shocked face"
-                />
+                <img src="shocked_face.jpg" alt="shocked face" />
             </header>
-
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
@@ -28,7 +24,11 @@ function App(): React.JSX.Element {
                 <li>Ketchup</li>
             </ul>
 
-            <Button onClick={() => console.log("Hello World!")}>
+            <Button
+                onClick={() => {
+                    console.log("Hello World!");
+                }}
+            >
                 Log Hello World
             </Button>
 
